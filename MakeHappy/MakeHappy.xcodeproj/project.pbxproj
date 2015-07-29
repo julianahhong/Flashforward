@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3606F2331B60B19400B4BAF7 /* EntriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3606F2321B60B19400B4BAF7 /* EntriesViewController.swift */; };
+		3606F2361B616A5000B4BAF7 /* SendEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3606F2351B616A5000B4BAF7 /* SendEmail.swift */; };
+		3644FF001B60201800E910EB /* PushNotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3644FEFF1B60201800E910EB /* PushNotificationController.swift */; };
+		3644FF051B60A82800E910EB /* ChooseDateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3644FF041B60A82800E910EB /* ChooseDateVC.swift */; };
+		36504DC01B56FC2E00DCB66F /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36504DBE1B56FC2E00DCB66F /* Bolts.framework */; };
+		36504DC11B56FC2E00DCB66F /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36504DBF1B56FC2E00DCB66F /* Parse.framework */; };
+		36504DC61B56FCF300DCB66F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36504DC21B56FCF300DCB66F /* AudioToolbox.framework */; };
+		36504DC71B56FCF300DCB66F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36504DC31B56FCF300DCB66F /* CFNetwork.framework */; };
+		36504DC81B56FCF300DCB66F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36504DC41B56FCF300DCB66F /* CoreGraphics.framework */; };
+		36504DC91B56FCF300DCB66F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36504DC51B56FCF300DCB66F /* CoreLocation.framework */; };
+		36504DCB1B56FCFE00DCB66F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36504DCA1B56FCFE00DCB66F /* QuartzCore.framework */; };
+		36504DD01B56FD2600DCB66F /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 36504DCC1B56FD2600DCB66F /* libz.dylib */; };
+		36504DD11B56FD2600DCB66F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36504DCD1B56FD2600DCB66F /* Security.framework */; };
+		36504DD21B56FD2600DCB66F /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36504DCE1B56FD2600DCB66F /* StoreKit.framework */; };
+		36504DD31B56FD2600DCB66F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36504DCF1B56FD2600DCB66F /* SystemConfiguration.framework */; };
+		36504DD51B56FD3800DCB66F /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 36504DD41B56FD3800DCB66F /* libsqlite3.dylib */; };
+		36691F3C1B5EBFF80060558A /* DisplayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36691F3B1B5EBFF80060558A /* DisplayVC.swift */; };
+		3679C9981B554D47003D9280 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3679C9971B554D47003D9280 /* AppDelegate.swift */; };
+		3679C99D1B554D47003D9280 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3679C99B1B554D47003D9280 /* Main.storyboard */; };
+		3679C99F1B554D47003D9280 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3679C99E1B554D47003D9280 /* Images.xcassets */; };
+		3679C9A21B554D47003D9280 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3679C9A01B554D47003D9280 /* LaunchScreen.xib */; };
+		3679C9AE1B554D48003D9280 /* MakeHappyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3679C9AD1B554D48003D9280 /* MakeHappyTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3679C9A81B554D47003D9280 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3679C98A1B554D47003D9280 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3679C9911B554D47003D9280;
+			remoteInfo = MakeHappy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3606F2321B60B19400B4BAF7 /* EntriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntriesViewController.swift; sourceTree = "<group>"; };
+		3606F2351B616A5000B4BAF7 /* SendEmail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SendEmail.swift; path = MakeHappy/ViewControllers/SendEmail.swift; sourceTree = SOURCE_ROOT; };
+		3644FEFF1B60201800E910EB /* PushNotificationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushNotificationController.swift; sourceTree = "<group>"; };
+		3644FF041B60A82800E910EB /* ChooseDateVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseDateVC.swift; sourceTree = "<group>"; };
+		36504DBE1B56FC2E00DCB66F /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = ../MakeHappy/Bolts.framework; sourceTree = "<group>"; };
+		36504DBF1B56FC2E00DCB66F /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = ../MakeHappy/Parse.framework; sourceTree = "<group>"; };
+		36504DC21B56FCF300DCB66F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		36504DC31B56FCF300DCB66F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		36504DC41B56FCF300DCB66F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		36504DC51B56FCF300DCB66F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		36504DCA1B56FCFE00DCB66F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		36504DCC1B56FD2600DCB66F /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		36504DCD1B56FD2600DCB66F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		36504DCE1B56FD2600DCB66F /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		36504DCF1B56FD2600DCB66F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		36504DD41B56FD3800DCB66F /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		36691F3B1B5EBFF80060558A /* DisplayVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DisplayVC.swift; path = ../../Views/DisplayVC.swift; sourceTree = "<group>"; };
+		3679C9921B554D47003D9280 /* MakeHappy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MakeHappy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3679C9961B554D47003D9280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3679C9971B554D47003D9280 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
+		3679C99C1B554D47003D9280 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3679C99E1B554D47003D9280 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3679C9A11B554D47003D9280 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3679C9A71B554D47003D9280 /* MakeHappyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MakeHappyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3679C9AC1B554D48003D9280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3679C9AD1B554D48003D9280 /* MakeHappyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeHappyTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3679C98F1B554D47003D9280 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36504DD51B56FD3800DCB66F /* libsqlite3.dylib in Frameworks */,
+				36504DD01B56FD2600DCB66F /* libz.dylib in Frameworks */,
+				36504DD11B56FD2600DCB66F /* Security.framework in Frameworks */,
+				36504DD21B56FD2600DCB66F /* StoreKit.framework in Frameworks */,
+				36504DD31B56FD2600DCB66F /* SystemConfiguration.framework in Frameworks */,
+				36504DCB1B56FCFE00DCB66F /* QuartzCore.framework in Frameworks */,
+				36504DC61B56FCF300DCB66F /* AudioToolbox.framework in Frameworks */,
+				36504DC71B56FCF300DCB66F /* CFNetwork.framework in Frameworks */,
+				36504DC81B56FCF300DCB66F /* CoreGraphics.framework in Frameworks */,
+				36504DC91B56FCF300DCB66F /* CoreLocation.framework in Frameworks */,
+				36504DC11B56FC2E00DCB66F /* Parse.framework in Frameworks */,
+				36504DC01B56FC2E00DCB66F /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3679C9A41B554D47003D9280 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3644FEFA1B6013FC00E910EB /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = SOURCE_ROOT;
+		};
+		3679C9891B554D47003D9280 = {
+			isa = PBXGroup;
+			children = (
+				36E99FA11B5E9DEA000D98DC /* Frameworks */,
+				3679C9941B554D47003D9280 /* MakeHappy */,
+				3679C9AA1B554D48003D9280 /* MakeHappyTests */,
+				3679C9931B554D47003D9280 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3679C9931B554D47003D9280 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3679C9921B554D47003D9280 /* MakeHappy.app */,
+				3679C9A71B554D47003D9280 /* MakeHappyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3679C9941B554D47003D9280 /* MakeHappy */ = {
+			isa = PBXGroup;
+			children = (
+				3644FEFA1B6013FC00E910EB /* Helpers */,
+				36E99FA51B5EA1B3000D98DC /* Views */,
+				36E99FA41B5EA1A6000D98DC /* Models */,
+				3679C9BD1B55A341003D9280 /* ViewControllers */,
+				3679C99B1B554D47003D9280 /* Main.storyboard */,
+				3679C99E1B554D47003D9280 /* Images.xcassets */,
+				3679C9A01B554D47003D9280 /* LaunchScreen.xib */,
+				3679C9951B554D47003D9280 /* Supporting Files */,
+			);
+			path = MakeHappy;
+			sourceTree = "<group>";
+		};
+		3679C9951B554D47003D9280 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3679C9961B554D47003D9280 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3679C9AA1B554D48003D9280 /* MakeHappyTests */ = {
+			isa = PBXGroup;
+			children = (
+				3679C9AD1B554D48003D9280 /* MakeHappyTests.swift */,
+				3679C9AB1B554D48003D9280 /* Supporting Files */,
+			);
+			path = MakeHappyTests;
+			sourceTree = "<group>";
+		};
+		3679C9AB1B554D48003D9280 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3679C9AC1B554D48003D9280 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3679C9BD1B55A341003D9280 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3679C9971B554D47003D9280 /* AppDelegate.swift */,
+				36691F3B1B5EBFF80060558A /* DisplayVC.swift */,
+				3644FEFF1B60201800E910EB /* PushNotificationController.swift */,
+				3644FF041B60A82800E910EB /* ChooseDateVC.swift */,
+				3606F2321B60B19400B4BAF7 /* EntriesViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		36E99FA11B5E9DEA000D98DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36504DBE1B56FC2E00DCB66F /* Bolts.framework */,
+				36504DBF1B56FC2E00DCB66F /* Parse.framework */,
+				36504DD41B56FD3800DCB66F /* libsqlite3.dylib */,
+				36504DCC1B56FD2600DCB66F /* libz.dylib */,
+				36504DCD1B56FD2600DCB66F /* Security.framework */,
+				36504DCE1B56FD2600DCB66F /* StoreKit.framework */,
+				36504DCF1B56FD2600DCB66F /* SystemConfiguration.framework */,
+				36504DCA1B56FCFE00DCB66F /* QuartzCore.framework */,
+				36504DC21B56FCF300DCB66F /* AudioToolbox.framework */,
+				36504DC31B56FCF300DCB66F /* CFNetwork.framework */,
+				36504DC41B56FCF300DCB66F /* CoreGraphics.framework */,
+				36504DC51B56FCF300DCB66F /* CoreLocation.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		36E99FA41B5EA1A6000D98DC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3606F2351B616A5000B4BAF7 /* SendEmail.swift */,
+			);
+			path = Models;
+			sourceTree = SOURCE_ROOT;
+		};
+		36E99FA51B5EA1B3000D98DC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3679C9911B554D47003D9280 /* MakeHappy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3679C9B11B554D48003D9280 /* Build configuration list for PBXNativeTarget "MakeHappy" */;
+			buildPhases = (
+				3679C98E1B554D47003D9280 /* Sources */,
+				3679C98F1B554D47003D9280 /* Frameworks */,
+				3679C9901B554D47003D9280 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MakeHappy;
+			productName = MakeHappy;
+			productReference = 3679C9921B554D47003D9280 /* MakeHappy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3679C9A61B554D47003D9280 /* MakeHappyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3679C9B41B554D48003D9280 /* Build configuration list for PBXNativeTarget "MakeHappyTests" */;
+			buildPhases = (
+				3679C9A31B554D47003D9280 /* Sources */,
+				3679C9A41B554D47003D9280 /* Frameworks */,
+				3679C9A51B554D47003D9280 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3679C9A91B554D47003D9280 /* PBXTargetDependency */,
+			);
+			name = MakeHappyTests;
+			productName = MakeHappyTests;
+			productReference = 3679C9A71B554D47003D9280 /* MakeHappyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3679C98A1B554D47003D9280 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Juliana Hong";
+				TargetAttributes = {
+					3679C9911B554D47003D9280 = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 9ZM98Q85LL;
+					};
+					3679C9A61B554D47003D9280 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 3679C9911B554D47003D9280;
+					};
+				};
+			};
+			buildConfigurationList = 3679C98D1B554D47003D9280 /* Build configuration list for PBXProject "MakeHappy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3679C9891B554D47003D9280;
+			productRefGroup = 3679C9931B554D47003D9280 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3679C9911B554D47003D9280 /* MakeHappy */,
+				3679C9A61B554D47003D9280 /* MakeHappyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3679C9901B554D47003D9280 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3679C99D1B554D47003D9280 /* Main.storyboard in Resources */,
+				3679C9A21B554D47003D9280 /* LaunchScreen.xib in Resources */,
+				3679C99F1B554D47003D9280 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3679C9A51B554D47003D9280 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3679C98E1B554D47003D9280 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3606F2361B616A5000B4BAF7 /* SendEmail.swift in Sources */,
+				3679C9981B554D47003D9280 /* AppDelegate.swift in Sources */,
+				36691F3C1B5EBFF80060558A /* DisplayVC.swift in Sources */,
+				3644FF001B60201800E910EB /* PushNotificationController.swift in Sources */,
+				3606F2331B60B19400B4BAF7 /* EntriesViewController.swift in Sources */,
+				3644FF051B60A82800E910EB /* ChooseDateVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3679C9A31B554D47003D9280 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3679C9AE1B554D48003D9280 /* MakeHappyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3679C9A91B554D47003D9280 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3679C9911B554D47003D9280 /* MakeHappy */;
+			targetProxy = 3679C9A81B554D47003D9280 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3679C99B1B554D47003D9280 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3679C99C1B554D47003D9280 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3679C9A01B554D47003D9280 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3679C9A11B554D47003D9280 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3679C9AF1B554D48003D9280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3679C9B01B554D48003D9280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3679C9B21B554D48003D9280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MakeHappy",
+				);
+				INFOPLIST_FILE = MakeHappy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		3679C9B31B554D48003D9280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MakeHappy",
+				);
+				INFOPLIST_FILE = MakeHappy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		3679C9B51B554D48003D9280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MakeHappyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MakeHappy.app/MakeHappy";
+			};
+			name = Debug;
+		};
+		3679C9B61B554D48003D9280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MakeHappyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MakeHappy.app/MakeHappy";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3679C98D1B554D47003D9280 /* Build configuration list for PBXProject "MakeHappy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3679C9AF1B554D48003D9280 /* Debug */,
+				3679C9B01B554D48003D9280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3679C9B11B554D48003D9280 /* Build configuration list for PBXNativeTarget "MakeHappy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3679C9B21B554D48003D9280 /* Debug */,
+				3679C9B31B554D48003D9280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3679C9B41B554D48003D9280 /* Build configuration list for PBXNativeTarget "MakeHappyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3679C9B51B554D48003D9280 /* Debug */,
+				3679C9B61B554D48003D9280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3679C98A1B554D47003D9280 /* Project object */;
+}
