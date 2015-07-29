@@ -14,6 +14,7 @@ class Display: UIViewController {
 
     @IBOutlet var displayImage: UIImageView!
 
+    @IBOutlet var throwbackFromLabel: UILabel!
     @IBOutlet var displayMessage: UILabel!
     @IBOutlet var displayButton: UIButton!
     override func viewDidLoad() {
@@ -81,9 +82,12 @@ class Display: UIViewController {
                 println("Noooo")
             } else {
                 // The find succeeded.
-                var success: AnyObject? = object?.objectForKey("Message")
-                self.displayMessage.text = success as? String
-                println(success)
+                var message: AnyObject? = object?.objectForKey("Message")
+                self.displayMessage.text = message as? String
+                
+                //adding throwback date to title label
+                var throwbackDate: String? = object?.objectForKey("createdDate") as? String
+                self.throwbackFromLabel.text = "Throwback from: " + throwbackDate!
             }
         }
         

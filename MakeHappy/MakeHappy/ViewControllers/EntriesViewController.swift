@@ -20,6 +20,7 @@ class EntriesViewController: UIViewController,UIImagePickerControllerDelegate,UI
     @IBOutlet var messageTextView: UITextView!
     
     
+    @IBOutlet var emailAddressTextField: UITextField!
     @IBOutlet var saveButton: UIButton!
     
     @IBOutlet var imageView: UIImageView!
@@ -59,27 +60,54 @@ class EntriesViewController: UIViewController,UIImagePickerControllerDelegate,UI
     func saveEntryToParse() {
         let entry = PFObject(className: "Entry")
         var messageText = messageTextView.text
+        var emailAddress = emailAddressTextField.text
         
         var imageData = UIImageJPEGRepresentation(imageView.image, 1.0)
+        
         var imageFile = PFFile(data: imageData)
+        
+//        let base64 = imageData.base64EncodedStringWithOptions(.allZeros)
+//        println(base64)
+        
         imageFile.saveInBackground()
-        //var chooseDate: String! = chooseDateButton.titleLabel?.text
+        
+        
+        entry["Image"] = imageFile
+
+        
+//        if imageData != nil {
+//
+//            
+//            
+//            entry["imageData"] = imageData
+//            var imageFile = PFFile(data: imageData)
+//            
+//            let base64 = imageData.base64EncodedStringWithOptions(.allZeros)
+//            println(base64)
+//            
+//            imageFile.saveInBackground()
+//
+//        
+//        entry["Image"] = imageFile
+//        }
         
         formatter.dateFormat = "yy-MM-dd HH:mm:ss"
         formatter.timeZone = NSTimeZone(name: "UTC")
 
         var notificationDate = formatter.stringFromDate(selectedDate)
         
-        entry["Image"] = imageFile
         entry["Message"] = messageText
         entry["NotificationDate"] = notificationDate
         entry["createdDate"] = getCurrentDate()
+        entry["Email"] = emailAddress
+        
         
         println(notificationDate)
         
         entry.saveInBackgroundWithBlock { (success: Bool, error: NSError?) -> Void in
             println("Entry has been saved.")
         }
+        
         entrySavedLabel.text = "Entry has been saved!"
         
     }
