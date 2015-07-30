@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		3606F2331B60B19400B4BAF7 /* EntriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3606F2321B60B19400B4BAF7 /* EntriesViewController.swift */; };
 		3606F2361B616A5000B4BAF7 /* SendEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3606F2351B616A5000B4BAF7 /* SendEmail.swift */; };
+		362FB4DA1B6AAA9C00978B03 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362FB4D91B6AAA9C00978B03 /* LogInViewController.swift */; };
+		362FB4DC1B6AB8A400978B03 /* ParseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362FB4DB1B6AB8A400978B03 /* ParseHelper.swift */; };
+		362FB4DE1B6ABB9F00978B03 /* PhotoTakingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362FB4DD1B6ABB9F00978B03 /* PhotoTakingHelper.swift */; };
 		3644FF001B60201800E910EB /* PushNotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3644FEFF1B60201800E910EB /* PushNotificationController.swift */; };
 		3644FF051B60A82800E910EB /* ChooseDateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3644FF041B60A82800E910EB /* ChooseDateVC.swift */; };
 		36504DC01B56FC2E00DCB66F /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36504DBE1B56FC2E00DCB66F /* Bolts.framework */; };
@@ -44,6 +47,9 @@
 /* Begin PBXFileReference section */
 		3606F2321B60B19400B4BAF7 /* EntriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntriesViewController.swift; sourceTree = "<group>"; };
 		3606F2351B616A5000B4BAF7 /* SendEmail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SendEmail.swift; path = MakeHappy/ViewControllers/SendEmail.swift; sourceTree = SOURCE_ROOT; };
+		362FB4D91B6AAA9C00978B03 /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		362FB4DB1B6AB8A400978B03 /* ParseHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ParseHelper.swift; path = MakeHappy/ViewControllers/ParseHelper.swift; sourceTree = SOURCE_ROOT; };
+		362FB4DD1B6ABB9F00978B03 /* PhotoTakingHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoTakingHelper.swift; path = MakeHappy/ViewControllers/PhotoTakingHelper.swift; sourceTree = SOURCE_ROOT; };
 		3644FEFF1B60201800E910EB /* PushNotificationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushNotificationController.swift; sourceTree = "<group>"; };
 		3644FF041B60A82800E910EB /* ChooseDateVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseDateVC.swift; sourceTree = "<group>"; };
 		36504DBE1B56FC2E00DCB66F /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = ../MakeHappy/Bolts.framework; sourceTree = "<group>"; };
@@ -103,6 +109,8 @@
 		3644FEFA1B6013FC00E910EB /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				362FB4DB1B6AB8A400978B03 /* ParseHelper.swift */,
+				362FB4DD1B6ABB9F00978B03 /* PhotoTakingHelper.swift */,
 			);
 			path = Helpers;
 			sourceTree = SOURCE_ROOT;
@@ -174,6 +182,7 @@
 				3644FEFF1B60201800E910EB /* PushNotificationController.swift */,
 				3644FF041B60A82800E910EB /* ChooseDateVC.swift */,
 				3606F2321B60B19400B4BAF7 /* EntriesViewController.swift */,
+				362FB4D91B6AAA9C00978B03 /* LogInViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -316,9 +325,12 @@
 				3606F2361B616A5000B4BAF7 /* SendEmail.swift in Sources */,
 				3679C9981B554D47003D9280 /* AppDelegate.swift in Sources */,
 				36691F3C1B5EBFF80060558A /* DisplayVC.swift in Sources */,
+				362FB4DA1B6AAA9C00978B03 /* LogInViewController.swift in Sources */,
 				3644FF001B60201800E910EB /* PushNotificationController.swift in Sources */,
 				3606F2331B60B19400B4BAF7 /* EntriesViewController.swift in Sources */,
+				362FB4DE1B6ABB9F00978B03 /* PhotoTakingHelper.swift in Sources */,
 				3644FF051B60A82800E910EB /* ChooseDateVC.swift in Sources */,
+				362FB4DC1B6AB8A400978B03 /* ParseHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
